@@ -88,23 +88,23 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         }
     })
     
-    .state('app.search', {
-        url: '/search',
-        views: {
-            'menuContent': {
-                templateUrl: 'templates/search.html'
-            }
-        }
-    })
-
-    .state('app.browse', {
-            url: '/browse',
-            views: {
-                'menuContent': {
-                    templateUrl: 'templates/browse.html'
-                }
-            }
-        })
+//    .state('app.search', {
+//        url: '/search',
+//        views: {
+//            'menuContent': {
+//                templateUrl: 'templates/search.html'
+//            }
+//        }
+//    })
+//
+//    .state('app.browse', {
+//            url: '/browse',
+//            views: {
+//                'menuContent': {
+//                    templateUrl: 'templates/browse.html'
+//                }
+//            }
+//        })
         .state('app.playlists', {
             url: '/playlists',
             views: {
